@@ -35,3 +35,15 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# auto-generated macOS files
+.DS_Store
+
+# jest
+/coverage/
+
+# dev bundle folder
+dist/
+
+# prod bundle folder
+lib/

@@ -1,0 +1,16 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false
+      }
+    ],
+    "flow",
+    "react"
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    "flow-react-proptypes"
+  ]
+}
