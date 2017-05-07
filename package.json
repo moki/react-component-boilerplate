@@ -23,7 +23,8 @@
     "test": "jest --colors --coverage",
     "precommit": "yarn clear && yarn verify",
     "prepush": "yarn verify",
-    "prepublish": "yarn clear && yarn verify"
+    "prepublish": "yarn clear && yarn verify",
+    "postinstall": "npm install babel-polyfill@latest react@latest react-dom@latest"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
