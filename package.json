@@ -15,15 +15,15 @@
   ],
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.dev.babel.js",
-    "build:prod": "yarn verify && yarn clean && webpack --config webpack.config.prod.babel.js",
-    "clean": "rm -rf lib/",
+    "build:prod": "yarn verify && yarn clear && webpack --config webpack.config.prod.babel.js",
+    "clear": "rm -rf lib/",
     "verify": "yarn lint && yarn flow && yarn test",
     "lint": "eslint src",
     "flow": "flow",
     "test": "jest --colors --coverage",
-    "precommit": "yarn clean && yarn verify",
+    "precommit": "yarn clear && yarn verify",
     "prepush": "yarn verify",
-    "prepublish": "yarn clean && yarn verify"
+    "prepublish": "yarn clear && yarn verify"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
