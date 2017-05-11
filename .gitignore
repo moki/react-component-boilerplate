@@ -41,6 +41,3 @@ jspm_packages
 
 # jest
 /coverage/
-
-# prod bundle folder
-/lib
